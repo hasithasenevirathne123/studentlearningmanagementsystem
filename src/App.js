@@ -1,23 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import { Typography, Button, IconButton, Stack, TextField, InputAdornment, Radio, RadioGroup, FormControl, FormLabel, FormControlLabel } from '@mui/material';
+import { red } from '@mui/material/colors';
+
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <h2 className='title-text'>etutor</h2>
+    <Button className="btn btn-danger" variant='contained'>Register</Button>
+    </div>
+     <div className='container'>
+
+     </div>
     </div>
   );
 }
